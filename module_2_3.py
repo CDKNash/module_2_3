@@ -3,7 +3,7 @@ num = 0
 while num != len(my_list):
     print(my_list[num])
     num += 1
-    if my_list[num] >= 0:
+    if my_list[num] >= 1:
         continue
     elif my_list[num] <= 0:
         num += 1
